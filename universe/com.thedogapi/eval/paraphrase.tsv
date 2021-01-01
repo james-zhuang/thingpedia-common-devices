@@ -47,9 +47,6 @@ turking/1632569	null	show me NUMBER_0 dog pictures	$dialogue @org.thingpedia.dia
 turking/54287749	null	find me some puppy pictures please .	$dialogue @org.thingpedia.dialogue.transaction . execute ; @com.thedogapi . dog ( ) ;
 turking/54287848	null	find NUMBER_0 pictures of dogs please .	$dialogue @org.thingpedia.dialogue.transaction . execute ; @com.thedogapi . dog ( ) [ 1 : NUMBER_0 ] ;
 turking/54287853	null	can you get me NUMBER_0 pictures that are of dogs ?	$dialogue @org.thingpedia.dialogue.transaction . execute ; @com.thedogapi . dog ( ) [ 1 : NUMBER_0 ] ;
-turking/54287970	null	can you find the image id for the dog pictures i have been talking about ?	$dialogue @org.thingpedia.dialogue.transaction . execute ; [ image_id ] of @com.thedogapi . dog ( ) ;
-turking/54288201	null	can you look up the image id for the pic that is of the random dog almond ?	$dialogue @org.thingpedia.dialogue.transaction . execute ; [ image_id ] of @com.thedogapi . dog ( ) ;
-turking/54288501	null	i 'd like you to find the image of a random dog and give me the image id .	$dialogue @org.thingpedia.dialogue.transaction . execute ; [ image_id ] of @com.thedogapi . dog ( ) ;
 turking/54288509	null	find me some new dog pics .	$dialogue @org.thingpedia.dialogue.transaction . execute ; @com.thedogapi . dog ( ) ;
 turking/54288512	null	can you get some doggy images for me ?	$dialogue @org.thingpedia.dialogue.transaction . execute ; @com.thedogapi . dog ( ) ;
 turking/54288792	null	locate dog pictures	$dialogue @org.thingpedia.dialogue.transaction . execute ; @com.thedogapi . dog ( ) ;
